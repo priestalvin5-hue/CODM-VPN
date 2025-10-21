@@ -1,0 +1,31 @@
+{
+  "name": "wireguard-vpn-server",
+  "version": "1.0.0",
+  "description": "A WireGuard VPN server optimized for Call of Duty Mobile",
+  "main": "server.js",
+  "scripts": {
+    "start": "wg-quick up wg0",
+    "stop": "wg-quick down wg0"
+  },
+  "keywords": [
+    "wireguard",
+    "vpn",
+    "gaming",
+    "codm"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https:                                                    
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/wireguard-vpn-server/issues"
+  },
+  "dependencies": {
+    "wireguard-tools": "^1.0.20210916"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
